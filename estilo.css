@@ -1,0 +1,61 @@
+.imagem_logo{
+    width: 100%;
+}
+.menu_principal{
+    display: inline-flex;
+    align-items: center; 
+    width: 100vw;
+}
+
+body{
+    background-color: antiquewhite ;
+
+}
+footer{
+    background-color: #6495ED   ;
+}
+.rodape{
+    color: black ;
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    align-items: center; 
+}
+
+ul{
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    padding: 20px;
+    font-weight: bold;
+}
+.item_ofertas{
+   display: grid;
+   justify-content: center;
+   align-items:center;
+   text-align: center;
+   width: 25%;
+
+}
+.ofertas{
+   display:flex;
+   flex-flow: row wrap;
+
+}
+
+.produtos{
+    display: grid;
+   justify-content: center;
+   align-items:center;
+   text-align: center;
+   width: 50%;
+}
+.produtos_categoria{
+    display: flex;;
+    flex-flow: row wrap;
+}
